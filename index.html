@@ -3,18 +3,309 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rebow</title>
+  <title>CleanTrashRooms</title>
   <link rel="stylesheet" href="assets/css/tokens.css" />
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
-  <header>
-    <h1>Welcome to Rebow</h1>
+  <header class="site-header" id="top">
+    <div class="site-header__inner container">
+      <div class="branding">
+        <span class="logo">CleanTrashRooms</span>
+        <p class="tagline">Premium trash room restoration for commercial and multifamily properties.</p>
+      </div>
+      <a class="btn btn-primary" href="#free-quote">Get Your Free Quote</a>
+    </div>
   </header>
 
   <main>
-    <p>This is your new site using a custom design system.</p>
+    <section class="hero" id="hero">
+      <div class="hero__grid container">
+        <div class="hero__content">
+          <h1>CleanTrashRooms</h1>
+          <p class="hero__lead">Eliminate odors, grime, and hazardous buildup in your trash rooms with a specialty team that treats sanitation like a science.</p>
+          <div class="hero__actions">
+            <a class="btn btn-primary" href="#free-quote">Schedule a walkthrough</a>
+            <a class="btn btn-secondary" href="#packages">View service packages</a>
+          </div>
+          <ul class="hero__highlights">
+            <li>Certified technicians with hospitality-level standards</li>
+            <li>Hospital-grade sanitizing, deodorizing, and sealing</li>
+            <li>Flexible scheduling that keeps residents happy</li>
+          </ul>
+        </div>
+        <figure class="hero__media">
+          <img src="https://via.placeholder.com/720x480?text=CleanTrashRooms+Team+in+Action" alt="CleanTrashRooms technicians detailing a trash room" />
+          <figcaption>Fresh, safe, odor-free trash rooms without disrupting your property.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="before-after" id="showcase">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Before &amp; After Showcase</h2>
+          <p>See how CleanTrashRooms transforms high-traffic trash rooms into spotless, odor-neutral spaces that residents appreciate.</p>
+        </div>
+        <div class="before-after__gallery">
+          <figure class="before-after__item">
+            <img src="https://via.placeholder.com/560x420?text=Before" alt="Trash room with overflowing bins and grime" />
+            <figcaption>Before: build-up, pests, and safety hazards.</figcaption>
+          </figure>
+          <figure class="before-after__item">
+            <img src="https://via.placeholder.com/560x420?text=After" alt="Sparkling clean trash room after professional cleaning" />
+            <figcaption>After: disinfected, sealed, and fresh.</figcaption>
+          </figure>
+          <figure class="before-after__item">
+            <img src="https://via.placeholder.com/560x420?text=Odor+Neutralized" alt="Technician applying odor control treatment" />
+            <figcaption>Odor-neutralizing treatments keep complaints away.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="problem-cycle" id="problem-cycle">
+      <div class="container">
+        <div class="section-heading">
+          <h2>How Trash Room Problems Escalate</h2>
+          <p>Interrupting the cycle early saves thousands in remediation costs and protects your reputation.</p>
+        </div>
+        <ol class="timeline">
+          <li>
+            <h3>Week 1: Surface grime appears</h3>
+            <p>Spills and leaks seep into porous surfaces, inviting bacteria and pests.</p>
+          </li>
+          <li>
+            <h3>Week 3: Odors spark complaints</h3>
+            <p>Uncontrolled odors migrate into hallways and elevators, lowering tenant satisfaction.</p>
+          </li>
+          <li>
+            <h3>Week 6: Safety risks rise</h3>
+            <p>Mold, slippery floors, and pest activity create health violations and liability exposure.</p>
+          </li>
+          <li>
+            <h3>Week 8+: Costly damage accrues</h3>
+            <p>Corroded chutes, stained walls, and infested rooms require expensive overhauls.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="pain-points" id="pain-points">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Property Manager Pain Points Solved</h2>
+          <p>We manage every detail so you can focus on occupancy and resident experience.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Odor Control</h3>
+            <p>Medical-grade deodorizing treatments keep hallways and elevators smelling fresh around the clock.</p>
+          </article>
+          <article class="card">
+            <h3>Pest Prevention</h3>
+            <p>Sanitizing protocols and enzyme treatments deter rodents and insects before they invade units.</p>
+          </article>
+          <article class="card">
+            <h3>Regulatory Compliance</h3>
+            <p>Detailed reporting documents every visit, supporting health inspections and compliance requirements.</p>
+          </article>
+          <article class="card">
+            <h3>Resident Satisfaction</h3>
+            <p>Flexible night and weekend scheduling eliminates disruptions and keeps complaints off your desk.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="specialty-comparison" id="specialty-service">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Why Specialty Service Matters</h2>
+          <p>Compare CleanTrashRooms with traditional janitorial crews.</p>
+        </div>
+        <div class="comparison-table" role="table" aria-label="Specialty service comparison">
+          <div class="comparison-table__row comparison-table__row--header" role="row">
+            <div class="comparison-table__cell" role="columnheader">Service Focus</div>
+            <div class="comparison-table__cell" role="columnheader">CleanTrashRooms</div>
+            <div class="comparison-table__cell" role="columnheader">Basic Janitorial</div>
+          </div>
+          <div class="comparison-table__row" role="row">
+            <div class="comparison-table__cell" role="cell">Trash room expertise</div>
+            <div class="comparison-table__cell" role="cell">Dedicated specialists, trained on chute and compactor systems.</div>
+            <div class="comparison-table__cell" role="cell">Generalists without equipment-specific knowledge.</div>
+          </div>
+          <div class="comparison-table__row" role="row">
+            <div class="comparison-table__cell" role="cell">Sanitization approach</div>
+            <div class="comparison-table__cell" role="cell">EPA-registered disinfectants and sealants tailored to porous surfaces.</div>
+            <div class="comparison-table__cell" role="cell">Mop-and-go cleaning that leaves biofilm behind.</div>
+          </div>
+          <div class="comparison-table__row" role="row">
+            <div class="comparison-table__cell" role="cell">Documentation</div>
+            <div class="comparison-table__cell" role="cell">Photo logs, condition reports, and compliance checklists every visit.</div>
+            <div class="comparison-table__cell" role="cell">Limited proof of work beyond sign-off sheets.</div>
+          </div>
+          <div class="comparison-table__row" role="row">
+            <div class="comparison-table__cell" role="cell">Response time</div>
+            <div class="comparison-table__cell" role="cell">Emergency support within 24 hours.</div>
+            <div class="comparison-table__cell" role="cell">Service availability tied to routine schedules.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="packages" id="packages">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Service Packages</h2>
+          <p>Choose the plan that matches your property volume and compliance needs.</p>
+        </div>
+        <div class="card-grid card-grid--packages">
+          <article class="card card--package">
+            <h3>Fresh Start</h3>
+            <p class="package-price">Starting at $399 / visit</p>
+            <ul>
+              <li>Monthly deep cleaning</li>
+              <li>Odor neutralization</li>
+              <li>Equipment inspection report</li>
+            </ul>
+            <a class="btn btn-secondary" href="#free-quote">Request Fresh Start</a>
+          </article>
+          <article class="card card--package">
+            <h3>Resident Delight</h3>
+            <p class="package-price">Starting at $699 / month</p>
+            <ul>
+              <li>Bi-weekly sanitation visits</li>
+              <li>Enzyme treatments for chutes</li>
+              <li>Quarterly sealing and polishing</li>
+            </ul>
+            <a class="btn btn-secondary" href="#free-quote">Request Resident Delight</a>
+          </article>
+          <article class="card card--package">
+            <h3>Compliance Guardian</h3>
+            <p class="package-price">Custom pricing</p>
+            <ul>
+              <li>Weekly disinfecting and deodorizing</li>
+              <li>Emergency spill response</li>
+              <li>Detailed compliance documentation</li>
+            </ul>
+            <a class="btn btn-secondary" href="#free-quote">Request Compliance Guardian</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Trusted by Property Teams</h2>
+          <p>Our clients stay with us because the results speak for themselves.</p>
+        </div>
+        <div class="testimonial-grid">
+          <blockquote class="testimonial">
+            <p>“CleanTrashRooms turned our worst-performing tower around in a single month. Residents stopped complaining and renewals improved.”</p>
+            <cite>— Maya R., Regional Property Manager</cite>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>“Their documentation keeps us audit-ready. The team is professional, punctual, and respectful of our community.”</p>
+            <cite>— Daniel K., Facilities Director</cite>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>“We didn’t realize how bad the compactor room had gotten until CleanTrashRooms restored it. The difference is unbelievable.”</p>
+            <cite>— Alicia T., Condo Association President</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="process-video" id="process-video">
+      <div class="container">
+        <div class="section-heading">
+          <h2>See Our Process</h2>
+          <p>Watch how our technicians restore and protect high-traffic trash rooms.</p>
+        </div>
+        <div class="video-placeholder" role="img" aria-label="Video placeholder showing play button and cleaning process teaser">
+          <button class="btn btn-primary" type="button">Play Process Overview</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="client-portal" id="client-portal">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Client Portal Access</h2>
+          <p>Track service history, photos, and compliance documentation in one secure dashboard.</p>
+        </div>
+        <div class="portal-features">
+          <article class="card">
+            <h3>24/7 Reporting</h3>
+            <p>View visit summaries, images, and upcoming appointments whenever you need them.</p>
+          </article>
+          <article class="card">
+            <h3>Resident Feedback Hub</h3>
+            <p>Log odor complaints and service requests directly to our team for fast resolution.</p>
+          </article>
+          <article class="card">
+            <h3>Compliance Library</h3>
+            <p>Download insurance certificates, SDS sheets, and sanitation logs instantly.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="free-quote">
+      <div class="container">
+        <div class="cta__grid">
+          <div class="cta__content">
+            <h2>Get Your Free Quote</h2>
+            <p>Tell us about your property and we’ll deliver a customized sanitation plan within 24 hours.</p>
+            <ul>
+              <li>On-site assessment with photo documentation</li>
+              <li>Action plan tailored to your building’s footprint</li>
+              <li>No-obligation pricing and scheduling options</li>
+            </ul>
+          </div>
+          <form class="quote-form" action="#" method="post">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Jane Property Manager" required />
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" placeholder="555-010-2456" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="jane@propertygroup.com" required />
+            </div>
+            <div class="form-field">
+              <label for="address">Property Address</label>
+              <input id="address" name="address" type="text" placeholder="123 Uptown Ave, Suite 400" required />
+            </div>
+            <div class="form-field">
+              <label for="message">Tell us about the situation</label>
+              <textarea id="message" name="message" rows="4" placeholder="Two trash rooms with odor complaints and chute leaks." required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit Request</button>
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>
+        <span class="logo">CleanTrashRooms</span>
+        <p>Serving multifamily, mixed-use, and commercial properties across the metro area.</p>
+      </div>
+      <div class="site-footer__meta">
+        <p><strong>Email:</strong> hello@cleantrashrooms.com</p>
+        <p><strong>Phone:</strong> (555) 987-6543</p>
+        <p>&copy; <span id="current-year"></span> CleanTrashRooms. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
 
   <script src="assets/js/main.js"></script>
 </body>

@@ -1,17 +1,44 @@
 :root {
-  --color-bg: #ffffff;
-  --color-text: #1a1a1a;
-  --color-primary: #4f46e5;
-  --space-xs: 4px;
-  --space-sm: 8px;
+  --font-family-base: 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-family-heading: 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-bg: #f6f8fb;
+  --color-surface: #ffffff;
+  --color-surface-muted: #eef2f8;
+  --color-text: #1b1f3b;
+  --color-text-muted: #4a5578;
+  --color-primary: #1f7a8c;
+  --color-primary-dark: #125063;
+  --color-secondary: #f97316;
+  --color-border: rgba(27, 31, 59, 0.12);
+  --color-shadow: rgba(15, 23, 42, 0.12);
+
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
   --space-md: 16px;
-  --space-lg: 32px;
-  --font-xs: 12px;
-  --font-sm: 14px;
-  --font-md: 16px;
-  --font-lg: 24px;
-  --font-xl: 32px;
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 32px;
+  --font-size-3xl: 40px;
+  --font-size-4xl: 52px;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+
+  --shadow-sm: 0 10px 30px rgba(18, 80, 99, 0.06);
+  --shadow-md: 0 18px 36px rgba(18, 80, 99, 0.1);
+
+  --max-width: 1100px;
+
+  --transition-base: 180ms ease-in-out;
 }
