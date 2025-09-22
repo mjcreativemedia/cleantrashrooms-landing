@@ -41,60 +41,81 @@
       </div>
     </section>
 
-    <section class="before-after" id="showcase">
+    <section class="trash-cycle" id="showcase">
       <div class="container">
-        <div class="before-after__layout">
-          <div class="before-after__copy">
-            <h2>You Know The Problem Too Well</h2>
-            <p>Trash rooms don’t fall apart overnight—they slip a little further every time the nightly crew can’t keep up with the spills, leaks, and bulk drop-offs.</p>
-            <p>By the time the calls and emails flood your inbox, the damage has already started. Here’s how fast the situation snowballs without a specialty team.</p>
-          </div>
-          <div class="before-after__list">
-            <h3 class="before-after__list-heading">The trash room decline timeline</h3>
-            <ul class="before-after__timeline" aria-label="Trash room deterioration timeline">
-              <li>
-                <strong>Week 1: Surface grime shows up.</strong>
-                <span>Spills and leaks seep into porous surfaces, inviting bacteria and pests.</span>
-              </li>
-              <li>
-                <strong>Week 3: Odors spark complaints.</strong>
-                <span>Uncontrolled odors migrate into hallways and elevators, lowering tenant satisfaction.</span>
-              </li>
-              <li>
-                <strong>Week 6: Safety risks rise.</strong>
-                <span>Mold, slippery floors, and pest activity create health violations and liability exposure.</span>
-              </li>
-              <li>
-                <strong>Week 8+: Costs surge.</strong>
-                <span>Corroded chutes, stained walls, and infested rooms require expensive overhauls.</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="problem-cycle" id="problem-cycle">
-      <div class="container">
-        <div class="section-heading">
+        <div class="trash-cycle__header">
           <h2>You Know The Problem Too Well</h2>
-          <p>Your team opens the day by resetting every bin, wiping every surface, and neutralizing odors&mdash;only to watch the relief evaporate in a matter of hours.</p>
+          <p>Trash rooms don’t fall apart overnight&mdash;they reset spotless in the morning only to spiral into complaints, odor, and emergency calls before the day is done.</p>
         </div>
-        <ol class="timeline">
-          <li>
-            <h3>6-8 AM Morning Clean&hellip;</h3>
-            <p>Fresh liners, disinfected chutes, and gleaming floors set the trash room up for success.</p>
-          </li>
-          <li>
-            <h3>2 PM Afternoon Chaos&hellip;</h3>
+        <div class="trash-cycle__cards" role="list">
+          <article class="cycle-card" role="listitem">
+            <span class="cycle-card__time">6&ndash;8 AM</span>
+            <h3>Morning Clean</h3>
+            <p>Fresh liners, disinfected chutes, and gleaming floors give residents a trash room that feels under control.</p>
+          </article>
+          <article class="cycle-card" role="listitem">
+            <span class="cycle-card__time">2 PM</span>
+            <h3>Afternoon Chaos</h3>
             <p>Overflowing deliveries, leaking bags, and food waste undo the morning effort while complaints roll in.</p>
-          </li>
-          <li>
-            <h3>8 PM+ Evening Disaster&hellip;</h3>
-            <p>Bins are maxed out, odors creep into hallways, and you are planning another emergency clean.</p>
-          </li>
-        </ol>
-        <p class="timeline__summary">By sunrise it starts again, and your team repeats the same exhausting cycle.</p>
+          </article>
+          <article class="cycle-card" role="listitem">
+            <span class="cycle-card__time">8 PM+</span>
+            <h3>Evening Disaster</h3>
+            <p>Bins max out, odors creep into hallways, and you&rsquo;re scheduling another emergency clean before sunrise.</p>
+          </article>
+        </div>
+        <div class="trash-cycle__highlights" id="problem-cycle">
+          <h3 class="trash-cycle__highlights-title">The never-ending complaints your team hears:</h3>
+          <ul class="cycle-highlights">
+            <li class="cycle-highlight">
+              <span class="cycle-highlight__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="presentation" focusable="false">
+                  <rect x="3" y="4" width="18" height="12" rx="4" ry="4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" />
+                  <polyline points="8 16 8 21 12 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                  <circle cx="9" cy="10" r="0.9" fill="currentColor" />
+                  <circle cx="12" cy="10" r="0.9" fill="currentColor" />
+                  <circle cx="15" cy="10" r="0.9" fill="currentColor" />
+                </svg>
+              </span>
+              <span class="cycle-highlight__text">Resident complaints spike before lunch.</span>
+            </li>
+            <li class="cycle-highlight">
+              <span class="cycle-highlight__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="presentation" focusable="false">
+                  <circle cx="12" cy="9" r="3" fill="none" stroke="currentColor" stroke-width="1.8" />
+                  <line x1="12" y1="12" x2="12" y2="20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  <line x1="7" y1="14" x2="17" y2="14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  <line x1="5" y1="7" x2="9" y2="9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  <line x1="19" y1="7" x2="15" y2="9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  <line x1="6" y1="18" x2="9" y2="16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  <line x1="18" y1="18" x2="15" y2="16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                </svg>
+              </span>
+              <span class="cycle-highlight__text">Pest sightings return as residue builds.</span>
+            </li>
+            <li class="cycle-highlight">
+              <span class="cycle-highlight__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="presentation" focusable="false">
+                  <path d="M9 19c1.8-2.4-1.8-3.6 0-6s1.8-3.6 0-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  <path d="M15 19c1.8-2.4-1.8-3.6 0-6s1.8-3.6 0-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  <line x1="4" y1="20" x2="20" y2="20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                </svg>
+              </span>
+              <span class="cycle-highlight__text">Odors drift into hallways and elevators.</span>
+            </li>
+            <li class="cycle-highlight">
+              <span class="cycle-highlight__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="presentation" focusable="false">
+                  <circle cx="12" cy="10" r="4" fill="none" stroke="currentColor" stroke-width="1.8" />
+                  <path d="M12 6v8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  <path d="M9 22h6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  <path d="M8 16h8l-2.5-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+              <span class="cycle-highlight__text">Emergency cleanups drain the budget again.</span>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 
